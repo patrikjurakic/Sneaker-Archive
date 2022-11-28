@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reviews</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src="./sneaker.archive.png" class="logo" alt="">
+     <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="home.php">Home</a>
+        </li>
+        <li>
+          <a href="index.html">Our Reviews</a>
+        </li>
+        <li>
+          <a href="archive.php">Sneaker Archive</a>
+        </li>
+        <li>
+          <a href='login.php'>Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section>
+      <div class="title">
+        <h2 class="animate__animated animate__fadeInDownBig">Our Reviews</h2>
+        <div class="underline">
+        </div>
+      </div>
+      <article class="review animate__animated animate__fadeInRight" id="review">
+        <div class="img-container">
+          <img src="person1.jpg" id="person-img" alt="">
+        </div>
+        <h4 id="author">Michael Jordan</h4>
+        <p id="job">Turnt up</p>
+        <p id="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <div class="button-container">
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+          <button class="random-btn">Surprise me</button>
+        
+      </article>
+    </section>
+  </main>
+  <div id="app"></div>
+  <script src="main.js"></script>
+</body>
+</html>
